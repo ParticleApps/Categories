@@ -1,0 +1,16 @@
+PODS:
+  - ParticleExtensions (0.1.0)
+
+DEPENDENCIES:
+  - ParticleExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  ParticleExtensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ParticleExtensions: 4a0e630c2bdeb064c7ce1f01e9860de7f631e42f
+
+PODFILE CHECKSUM: 14726d859c49a91f9a250811a390307e40192bbf
+
+COCOAPODS: 1.0.1
