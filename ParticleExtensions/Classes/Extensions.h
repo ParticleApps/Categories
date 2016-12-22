@@ -10,5 +10,7 @@
 #define Extensions_h
 
 #import "UIView+PCExtensions.h"
+#import "UIStackView+PCExtensions.h"
+#import "UITableView+PCExtensions.h"
 
 #endif /* Extensions_h */

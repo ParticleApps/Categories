@@ -14,6 +14,10 @@
 		3E147C365DB8A962FCD86389A2C01A1D /* Pods-ParticleExtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5820188689095442C015079D30DFBCA1 /* Pods-ParticleExtensions_Example-dummy.m */; };
 		50FF3A435913F87D2DD8696A655CDE45 /* ParticleExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3670FB0FC4422EF7A352E0C98AAE2CF9 /* ParticleExtensions-dummy.m */; };
 		8279FB4628EC100CC65EF482701E3EB1 /* Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBA5B33E97D865C64D17477A8DDEDFF /* Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8423A1261DC40B90000EBCBC /* UIStackView+PCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8423A1241DC40B90000EBCBC /* UIStackView+PCExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8423A1271DC40B90000EBCBC /* UIStackView+PCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423A1251DC40B90000EBCBC /* UIStackView+PCExtensions.m */; };
+		8423A12A1DC40E55000EBCBC /* UITableView+PCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8423A1281DC40E55000EBCBC /* UITableView+PCExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8423A12B1DC40E55000EBCBC /* UITableView+PCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423A1291DC40E55000EBCBC /* UITableView+PCExtensions.m */; };
 		89D6800774828AF2337E283CDB3A6B6A /* Pods-ParticleExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E2898FBA69208AEB17C65E8E9AF317 /* Pods-ParticleExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B037ECAA02CA729B8697FBDAC2B4A1E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		BC7D3C7D5CE59DB552DD100B581309ED /* Pods-ParticleExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA32095B829891C8645870BF54F11F7 /* Pods-ParticleExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,6 +53,10 @@
 		756960E4DFF5527D9A92CEFFE9C31A8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76D96D1E6A48422887188834606EA6D9 /* UIView+PCExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+PCExtensions.m"; sourceTree = "<group>"; };
 		78DC620823476BFAE52EB15BE79518E0 /* Pods-ParticleExtensions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParticleExtensions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8423A1241DC40B90000EBCBC /* UIStackView+PCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStackView+PCExtensions.h"; sourceTree = "<group>"; };
+		8423A1251DC40B90000EBCBC /* UIStackView+PCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStackView+PCExtensions.m"; sourceTree = "<group>"; };
+		8423A1281DC40E55000EBCBC /* UITableView+PCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+PCExtensions.h"; sourceTree = "<group>"; };
+		8423A1291DC40E55000EBCBC /* UITableView+PCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PCExtensions.m"; sourceTree = "<group>"; };
 		8965EC6BF63C7AC9629EA6005926A2FE /* Pods-ParticleExtensions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParticleExtensions_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A2F4AD626C276BA1EBEFAF569138209 /* Pods-ParticleExtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParticleExtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -206,6 +214,10 @@
 				AFBA5B33E97D865C64D17477A8DDEDFF /* Extensions.h */,
 				CFFDBA78213503DAE91764B99384FC36 /* UIView+PCExtensions.h */,
 				76D96D1E6A48422887188834606EA6D9 /* UIView+PCExtensions.m */,
+				8423A1241DC40B90000EBCBC /* UIStackView+PCExtensions.h */,
+				8423A1251DC40B90000EBCBC /* UIStackView+PCExtensions.m */,
+				8423A1281DC40E55000EBCBC /* UITableView+PCExtensions.h */,
+				8423A1291DC40E55000EBCBC /* UITableView+PCExtensions.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -244,8 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8279FB4628EC100CC65EF482701E3EB1 /* Extensions.h in Headers */,
+				8423A1261DC40B90000EBCBC /* UIStackView+PCExtensions.h in Headers */,
 				E396263B8F75C2E5C59ED937AFD1B0E2 /* ParticleExtensions-umbrella.h in Headers */,
 				26A0FE3A2697D37E0E55C695D395E064 /* UIView+PCExtensions.h in Headers */,
+				8423A12A1DC40E55000EBCBC /* UITableView+PCExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8423A12B1DC40E55000EBCBC /* UITableView+PCExtensions.m in Sources */,
 				50FF3A435913F87D2DD8696A655CDE45 /* ParticleExtensions-dummy.m in Sources */,
+				8423A1271DC40B90000EBCBC /* UIStackView+PCExtensions.m in Sources */,
 				C5F1F198650DE8FF5BE0F7776DAB5F68 /* UIView+PCExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
