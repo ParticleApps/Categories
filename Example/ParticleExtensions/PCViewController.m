@@ -20,12 +20,11 @@
 {
     [super viewDidLoad];
     
-    UIView *someView = [[UIView alloc] init];
+    NSMutableURLRequest *url = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:@"https://www.google.com"]];
     
-    UIView *otherView = [[UIView alloc] init];
-    UIView *sampleView = [[UIView alloc] init];
+    [url addQueries:@{@"key":@"value"}];
+    //NSLog(@"URL: %@", url);
     
-    [someView addSubviews:@[otherView, sampleView]];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

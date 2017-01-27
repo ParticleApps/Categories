@@ -12,5 +12,6 @@
 #import "UIView+PCExtensions.h"
 #import "UIStackView+PCExtensions.h"
 #import "UITableView+PCExtensions.h"
+#import "NSURLRequest+PCExtensions.h"
 
 #endif /* Extensions_h */
