@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		036A7A045B198C32341DED7D0ED741E4 /* Pods-ParticleExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA32095B829891C8645870BF54F11F7 /* Pods-ParticleExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09E0D93BA8AE79B16669EEDA85456612 /* Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D1BB414D1BFDFE416F008B8CC286B7 /* Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09E0D93BA8AE79B16669EEDA85456612 /* ParticleExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D1BB414D1BFDFE416F008B8CC286B7 /* ParticleExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		105567E8B5453B3DB9219E7923353670 /* NSURLRequest+PCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 342C6FE8827C8F9DD6DC9CEE58A1297A /* NSURLRequest+PCExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		149C746AFCC8832DDA2B44D7B5669A29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		2DA4E7AF0AF95FD93098A2EDED5B7846 /* UIStackView+PCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B856CBC480F85B91DEADA151AC5AFF /* UIStackView+PCExtensions.m */; };
@@ -19,6 +19,8 @@
 		60C87F82AF545ABB32E9C8B715F074E5 /* UIView+PCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F7542550FC8BD3BA87B471F1956CDA8F /* UIView+PCExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F0D03439206E7F0A49926C5C1C0AEAC /* UITableView+PCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 619A949D6C53FF586649CC523C9DA3EC /* UITableView+PCExtensions.m */; };
 		7B3498F4544951C4CF147812F86F6969 /* ParticleExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3670FB0FC4422EF7A352E0C98AAE2CF9 /* ParticleExtensions-dummy.m */; };
+		8499E5721EC5A7D9002BD76A /* NSAttributedString+PCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8499E5701EC5A7D9002BD76A /* NSAttributedString+PCExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8499E5731EC5A7D9002BD76A /* NSAttributedString+PCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499E5711EC5A7D9002BD76A /* NSAttributedString+PCExtensions.m */; };
 		9C49583698AAC4DE74F22529FCDAE5A1 /* UITableView+PCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDD157DE04233B25274A4DF8D7B1382 /* UITableView+PCExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B722A1D49F2334DCC19C9ED5B0D7AF0B /* Pods-ParticleExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E2898FBA69208AEB17C65E8E9AF317 /* Pods-ParticleExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC6077B09E70B5708835B6C81274C30B /* Pods-ParticleExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D352E0D8E5C96C1F67B9D5A111E221 /* Pods-ParticleExtensions_Tests-dummy.m */; };
@@ -40,28 +42,30 @@
 /* Begin PBXFileReference section */
 		03D31D5B4CC15AC0A86566367E3C5574 /* Pods-ParticleExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParticleExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		08DE7FB8C2F7AA8139F5874E3FA27A91 /* Pods-ParticleExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParticleExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0B65FEB730BFDD06E7AAAFC59566C550 /* ParticleExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ParticleExtensions.framework; path = ParticleExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B65FEB730BFDD06E7AAAFC59566C550 /* ParticleExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParticleExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BD854D9429B1514F511A7214F1C7EA /* UIView+PCExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+PCExtensions.m"; sourceTree = "<group>"; };
-		1996EF9F8C82C3D592368A604D9866E9 /* ParticleExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ParticleExtensions.modulemap; sourceTree = "<group>"; };
+		1996EF9F8C82C3D592368A604D9866E9 /* ParticleExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ParticleExtensions.modulemap; sourceTree = "<group>"; };
 		2EA32095B829891C8645870BF54F11F7 /* Pods-ParticleExtensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParticleExtensions_Example-umbrella.h"; sourceTree = "<group>"; };
 		3094F1407DFCA24B42B6F3480F94C317 /* UIStackView+PCExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIStackView+PCExtensions.h"; sourceTree = "<group>"; };
 		342C6FE8827C8F9DD6DC9CEE58A1297A /* NSURLRequest+PCExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+PCExtensions.h"; sourceTree = "<group>"; };
 		3670FB0FC4422EF7A352E0C98AAE2CF9 /* ParticleExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParticleExtensions-dummy.m"; sourceTree = "<group>"; };
-		3BE2AA4171EEB0C602DA07741FCBE566 /* Pods_ParticleExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ParticleExtensions_Example.framework; path = "Pods-ParticleExtensions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D1A29C65066341DD5EAD14EABFC0D90 /* Pods-ParticleExtensions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ParticleExtensions_Example.modulemap"; sourceTree = "<group>"; };
+		3BE2AA4171EEB0C602DA07741FCBE566 /* Pods_ParticleExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParticleExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1A29C65066341DD5EAD14EABFC0D90 /* Pods-ParticleExtensions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ParticleExtensions_Example.modulemap"; sourceTree = "<group>"; };
 		41E2898FBA69208AEB17C65E8E9AF317 /* Pods-ParticleExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParticleExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
 		44D97479A35EE9EC2CC5BADE20817A90 /* Pods-ParticleExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParticleExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5820188689095442C015079D30DFBCA1 /* Pods-ParticleExtensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParticleExtensions_Example-dummy.m"; sourceTree = "<group>"; };
-		5D078C34F1F11ACB59E51BB29795E8E3 /* Pods-ParticleExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ParticleExtensions_Tests.modulemap"; sourceTree = "<group>"; };
+		5D078C34F1F11ACB59E51BB29795E8E3 /* Pods-ParticleExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ParticleExtensions_Tests.modulemap"; sourceTree = "<group>"; };
 		619A949D6C53FF586649CC523C9DA3EC /* UITableView+PCExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PCExtensions.m"; sourceTree = "<group>"; };
 		66FB52C584E0305E6BC009743746B73E /* Pods-ParticleExtensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParticleExtensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6CDD157DE04233B25274A4DF8D7B1382 /* UITableView+PCExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+PCExtensions.h"; sourceTree = "<group>"; };
 		6D0212C990D36ADF7DD3DC0882A1DDFA /* Pods-ParticleExtensions_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParticleExtensions_Tests-resources.sh"; sourceTree = "<group>"; };
 		756960E4DFF5527D9A92CEFFE9C31A8B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78DC620823476BFAE52EB15BE79518E0 /* Pods-ParticleExtensions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParticleExtensions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8499E5701EC5A7D9002BD76A /* NSAttributedString+PCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+PCExtensions.h"; sourceTree = "<group>"; };
+		8499E5711EC5A7D9002BD76A /* NSAttributedString+PCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+PCExtensions.m"; sourceTree = "<group>"; };
 		8965EC6BF63C7AC9629EA6005926A2FE /* Pods-ParticleExtensions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParticleExtensions_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8EDF6BB648B3CFBED88CD0E6AE990B3B /* NSURLRequest+PCExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+PCExtensions.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A2F4AD626C276BA1EBEFAF569138209 /* Pods-ParticleExtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParticleExtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BC27BCF33123DA10CB00D2476647D3DE /* ParticleExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParticleExtensions-umbrella.h"; sourceTree = "<group>"; };
 		C4365702D0748842DD1739133BBAD627 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,8 +75,8 @@
 		D2EEE3CCEB57BA18A379A264A8A9F239 /* ParticleExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParticleExtensions-prefix.pch"; sourceTree = "<group>"; };
 		D5B856CBC480F85B91DEADA151AC5AFF /* UIStackView+PCExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIStackView+PCExtensions.m"; sourceTree = "<group>"; };
 		D657B02FDD70ACCAF454B302F379EE5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9D1BB414D1BFDFE416F008B8CC286B7 /* Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Extensions.h; sourceTree = "<group>"; };
-		E3664D6710A144DD6621608C553F717D /* Pods_ParticleExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ParticleExtensions_Tests.framework; path = "Pods-ParticleExtensions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D1BB414D1BFDFE416F008B8CC286B7 /* ParticleExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ParticleExtensions.h; sourceTree = "<group>"; };
+		E3664D6710A144DD6621608C553F717D /* Pods_ParticleExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParticleExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D352E0D8E5C96C1F67B9D5A111E221 /* Pods-ParticleExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParticleExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
 		E6EBE7500C48E7F8CA932E037C1F556D /* Pods-ParticleExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParticleExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ECE36A708B01692FEFDFA21C2813BD33 /* Pods-ParticleExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParticleExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,7 +142,7 @@
 		2EC208F683CDF7FC92B734CF795E2B7D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D9D1BB414D1BFDFE416F008B8CC286B7 /* Extensions.h */,
+				D9D1BB414D1BFDFE416F008B8CC286B7 /* ParticleExtensions.h */,
 				342C6FE8827C8F9DD6DC9CEE58A1297A /* NSURLRequest+PCExtensions.h */,
 				8EDF6BB648B3CFBED88CD0E6AE990B3B /* NSURLRequest+PCExtensions.m */,
 				3094F1407DFCA24B42B6F3480F94C317 /* UIStackView+PCExtensions.h */,
@@ -147,8 +151,9 @@
 				619A949D6C53FF586649CC523C9DA3EC /* UITableView+PCExtensions.m */,
 				F7542550FC8BD3BA87B471F1956CDA8F /* UIView+PCExtensions.h */,
 				17BD854D9429B1514F511A7214F1C7EA /* UIView+PCExtensions.m */,
+				8499E5701EC5A7D9002BD76A /* NSAttributedString+PCExtensions.h */,
+				8499E5711EC5A7D9002BD76A /* NSAttributedString+PCExtensions.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -226,7 +231,6 @@
 			children = (
 				2EC208F683CDF7FC92B734CF795E2B7D /* Classes */,
 			);
-			name = ParticleExtensions;
 			path = ParticleExtensions;
 			sourceTree = "<group>";
 		};
@@ -263,12 +267,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E0D93BA8AE79B16669EEDA85456612 /* Extensions.h in Headers */,
+				09E0D93BA8AE79B16669EEDA85456612 /* ParticleExtensions.h in Headers */,
 				105567E8B5453B3DB9219E7923353670 /* NSURLRequest+PCExtensions.h in Headers */,
 				F1DBA95475DB6E66C5582FEF9FCE1908 /* ParticleExtensions-umbrella.h in Headers */,
 				2F79BBC6D800AD59BAE13B2068262AFD /* UIStackView+PCExtensions.h in Headers */,
 				9C49583698AAC4DE74F22529FCDAE5A1 /* UITableView+PCExtensions.h in Headers */,
 				60C87F82AF545ABB32E9C8B715F074E5 /* UIView+PCExtensions.h in Headers */,
+				8499E5721EC5A7D9002BD76A /* NSAttributedString+PCExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +375,7 @@
 			files = (
 				F74FA910AFBD6E1BAB2C78996367D21F /* NSURLRequest+PCExtensions.m in Sources */,
 				7B3498F4544951C4CF147812F86F6969 /* ParticleExtensions-dummy.m in Sources */,
+				8499E5731EC5A7D9002BD76A /* NSAttributedString+PCExtensions.m in Sources */,
 				2DA4E7AF0AF95FD93098A2EDED5B7846 /* UIStackView+PCExtensions.m in Sources */,
 				6F0D03439206E7F0A49926C5C1C0AEAC /* UITableView+PCExtensions.m in Sources */,
 				2DB4E5E42A2C1E47104B83907E7116E3 /* UIView+PCExtensions.m in Sources */,
