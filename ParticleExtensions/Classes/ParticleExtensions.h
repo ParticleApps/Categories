@@ -12,6 +12,7 @@
 #import "UIView+PCExtensions.h"
 #import "UIStackView+PCExtensions.h"
 #import "UITableView+PCExtensions.h"
+#import "NSData+PCExtensions.h"
 #import "NSURLRequest+PCExtensions.h"
 #import "NSAttributedString+PCExtensions.h"
 

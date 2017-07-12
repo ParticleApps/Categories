@@ -2,8 +2,9 @@
 #import <UIKit/UIKit.h>
 #endif
 
-#import "Extensions.h"
+#import "NSAttributedString+PCExtensions.h"
 #import "NSURLRequest+PCExtensions.h"
+#import "ParticleExtensions.h"
 #import "UIStackView+PCExtensions.h"
 #import "UITableView+PCExtensions.h"
 #import "UIView+PCExtensions.h"
