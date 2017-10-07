@@ -19,3 +19,7 @@ FOUNDATION_EXPORT const unsigned char ParticleCategoriesVersionString[];
 #import "UITableView+PCCategories.h"
 #import "NSData+PCCategories.h"
 #import "NSAttributedString+PCCategories.h"
+
+static inline NSString * NSStringForNSIndexPath(NSIndexPath *indexPath) {
+    return [NSString stringWithFormat:@"(s: %li, r: %li)", indexPath.section, indexPath.row];
+}
