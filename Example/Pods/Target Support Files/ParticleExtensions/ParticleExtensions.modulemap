@@ -1,6 +1,0 @@
-framework module ParticleExtensions {
-  umbrella header "ParticleExtensions-umbrella.h"
-
-  export *
-  module * { export * }
-}
