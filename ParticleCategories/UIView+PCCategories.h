@@ -12,4 +12,6 @@
 
 - (void)addSubviews:(NSArray <UIView *> *)subviews;
 
+- (BOOL)findAndResignFirstResponder;
+
 @end

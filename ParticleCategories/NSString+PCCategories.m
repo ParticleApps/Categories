@@ -100,4 +100,12 @@
     return s;
 }
 
+- (NSString *)stringByAppendingStrings:(NSArray <NSString *>*)strings {
+    NSMutableString *mutableString = [[NSMutableString alloc] init];
+    for (NSString *string in strings) {
+        [mutableString appendString:string];
+    }
+    return mutableString;
+}
+
 @end

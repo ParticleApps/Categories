@@ -16,4 +16,6 @@
 
 - (NSString *)unescapeHTML;
 
+- (NSString *)stringByAppendingStrings:(NSArray <NSString *>*)strings;
+
 @end

@@ -16,4 +16,17 @@
     }
 }
 
+- (BOOL)findAndResignFirstResponder {
+    if (self.isFirstResponder) {
+        [self resignFirstResponder];
+        return true;
+    }
+    for (UIView *subView in self.subviews) {
+        if ([subView findAndResignFirstResponder]) {
+            return true;
+        }
+    }
+    return true;
+}
+
 @end
