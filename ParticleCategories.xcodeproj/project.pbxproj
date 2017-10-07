@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8437DD301F8983E200560F0E /* UIControl+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 8437DD2E1F8983E200560F0E /* UIControl+PCCategories.h */; };
+		8437DD311F8983E200560F0E /* UIControl+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437DD2F1F8983E200560F0E /* UIControl+PCCategories.m */; };
 		848DD81D1F8974DB00AC4037 /* NSDateFormatter+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 848DD81B1F8974DB00AC4037 /* NSDateFormatter+PCCategories.h */; };
 		848DD81E1F8974DB00AC4037 /* NSDateFormatter+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 848DD81C1F8974DB00AC4037 /* NSDateFormatter+PCCategories.m */; };
 		848DD8251F8979C000AC4037 /* NSURL+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 848DD8231F8979C000AC4037 /* NSURL+PCCategories.h */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8437DD2E1F8983E200560F0E /* UIControl+PCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+PCCategories.h"; sourceTree = "<group>"; };
+		8437DD2F1F8983E200560F0E /* UIControl+PCCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PCCategories.m"; sourceTree = "<group>"; };
 		848DD81B1F8974DB00AC4037 /* NSDateFormatter+PCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+PCCategories.h"; sourceTree = "<group>"; };
 		848DD81C1F8974DB00AC4037 /* NSDateFormatter+PCCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+PCCategories.m"; sourceTree = "<group>"; };
 		848DD8231F8979C000AC4037 /* NSURL+PCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+PCCategories.h"; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				84D16F5C1F89645C007344C3 /* UIStackView+PCCategories.m */,
 				84D16F5D1F89645C007344C3 /* UITableView+PCCategories.h */,
 				84D16F5E1F89645D007344C3 /* UITableView+PCCategories.m */,
+				8437DD2E1F8983E200560F0E /* UIControl+PCCategories.h */,
+				8437DD2F1F8983E200560F0E /* UIControl+PCCategories.m */,
 				848DD82B1F89816D00AC4037 /* UIColor+PCCategories.h */,
 				848DD82C1F89816D00AC4037 /* UIColor+PCCategories.m */,
 				84D16F601F89645D007344C3 /* UIView+PCCategories.h */,
@@ -131,6 +137,7 @@
 				848DD82D1F89816D00AC4037 /* UIColor+PCCategories.h in Headers */,
 				848DD81D1F8974DB00AC4037 /* NSDateFormatter+PCCategories.h in Headers */,
 				848DD8291F897C7500AC4037 /* NSString+PCCategories.h in Headers */,
+				8437DD301F8983E200560F0E /* UIControl+PCCategories.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 				84D16F651F89645D007344C3 /* UIStackView+PCCategories.m in Sources */,
 				84D16F681F89645D007344C3 /* NSAttributedString+PCCategories.m in Sources */,
 				848DD8261F8979C000AC4037 /* NSURL+PCCategories.m in Sources */,
+				8437DD311F8983E200560F0E /* UIControl+PCCategories.m in Sources */,
 				848DD82E1F89816D00AC4037 /* UIColor+PCCategories.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
