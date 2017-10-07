@@ -8,7 +8,7 @@
 
 #import "UIControl+PCCategories.h"
 
-@implementation UIControl_PCCategories
+@implementation UIControl (PCCategories)
 
 - (void)removeAllTargets {
     [[self allTargets] enumerateObjectsUsingBlock:^(id object, BOOL *stop) {
