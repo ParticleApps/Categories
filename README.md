@@ -1,29 +1,19 @@
-# ParticleExtensions
+# ParticleCategories
+ParticleCatagories is a framework that adds convience methods for common objects in UIKit & Foundation.
 
-[![CI Status](http://img.shields.io/travis/Rocco Del Priore/ParticleExtensions.svg?style=flat)](https://travis-ci.org/Rocco Del Priore/ParticleExtensions)
-[![Version](https://img.shields.io/cocoapods/v/ParticleExtensions.svg?style=flat)](http://cocoapods.org/pods/ParticleExtensions)
-[![License](https://img.shields.io/cocoapods/l/ParticleExtensions.svg?style=flat)](http://cocoapods.org/pods/ParticleExtensions)
-[![Platform](https://img.shields.io/cocoapods/p/ParticleExtensions.svg?style=flat)](http://cocoapods.org/pods/ParticleExtensions)
+## Adding to Your Project
+Simply add the following to your Podfile if you're using [CocoaPods](http://cocoapods.org):
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-ParticleExtensions is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "ParticleExtensions"
+``` ruby
+pod 'ParticleCategories', :git => "https://github.com/ParticleApps/Categories.git"
 ```
 
-## Author
+or Cartfile if you're using [Carthage](https://github.com/Carthage/Carthage):
 
-Rocco Del Priore, roccodelpriore@me.com
+```
+github "ParticleApps/Categories"
+```
 
-## License
+## Support
 
-ParticleExtensions is available under the MIT license. See the LICENSE file for more info.
+Feel free to open an issue in this project, or drop a line to <rocco@particleapps.co>.
