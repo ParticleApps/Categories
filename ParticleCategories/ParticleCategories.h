@@ -20,9 +20,10 @@ FOUNDATION_EXPORT const unsigned char ParticleCategoriesVersionString[];
 #import "NSDateFormatter+PCCategories.h"
 #import "NSURL+PCCategories.h"
 
-#import "UIView+PCCategories.h"
 #import "UIStackView+PCCategories.h"
 #import "UITableView+PCCategories.h"
+#import "UIColor+PCCategories.h"
+#import "UIView+PCCategories.h"
 
 static inline NSString * NSStringForNSIndexPath(NSIndexPath *indexPath) {
     return [NSString stringWithFormat:@"(s: %li, r: %li)", indexPath.section, indexPath.row];
