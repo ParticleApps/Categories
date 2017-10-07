@@ -14,10 +14,12 @@ FOUNDATION_EXPORT double ParticleCategoriesVersionNumber;
 //! Project version string for ParticleCategories.
 FOUNDATION_EXPORT const unsigned char ParticleCategoriesVersionString[];
 
+#import "NSIndexPath+PCCategories.h"
 #import "NSAttributedString+PCCategories.h"
 #import "NSString+PCCategories.h"
-#import "NSData+PCCategories.h"
 #import "NSDateFormatter+PCCategories.h"
+#import "NSDate+PCCategories.h"
+#import "NSData+PCCategories.h"
 #import "NSURL+PCCategories.h"
 
 #import "UIStackView+PCCategories.h"
@@ -26,7 +28,3 @@ FOUNDATION_EXPORT const unsigned char ParticleCategoriesVersionString[];
 #import "UIControl+PCCategories.h"
 #import "UIColor+PCCategories.h"
 #import "UIView+PCCategories.h"
-
-static inline NSString * NSStringForNSIndexPath(NSIndexPath *indexPath) {
-    return [NSString stringWithFormat:@"(s: %li, r: %li)", indexPath.section, indexPath.row];
-}

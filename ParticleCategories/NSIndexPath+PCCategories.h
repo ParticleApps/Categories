@@ -1,5 +1,5 @@
 //
-//  NSString+PCCategories.h
+//  NSIndexPath+PCCategories.h
 //  ParticleCategories
 //
 //  Created by Rocco Del Priore on 10/7/17.
@@ -8,12 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (PCCategories)
+@interface NSIndexPath (PCCategories)
 
-- (NSString *)UUID;
-
-- (NSString *)escapeHTML;
-
-- (NSString *)unescapeHTML;
+- (NSString *)stringValue;
 
 @end

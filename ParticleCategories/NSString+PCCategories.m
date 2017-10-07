@@ -1,5 +1,5 @@
 //
-//  NSString+PCCatagories.m
+//  NSString+PCCategories.m
 //  ParticleCategories
 //
 //  Created by Rocco Del Priore on 10/7/17.

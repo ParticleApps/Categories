@@ -11,6 +11,10 @@
 		8437DD311F8983E200560F0E /* UIControl+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437DD2F1F8983E200560F0E /* UIControl+PCCategories.m */; };
 		8437DD341F89862600560F0E /* UIScreen+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 8437DD321F89862600560F0E /* UIScreen+PCCategories.h */; };
 		8437DD351F89862600560F0E /* UIScreen+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437DD331F89862600560F0E /* UIScreen+PCCategories.m */; };
+		8437DD381F89886A00560F0E /* NSDate+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 8437DD361F89886A00560F0E /* NSDate+PCCategories.h */; };
+		8437DD391F89886A00560F0E /* NSDate+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437DD371F89886A00560F0E /* NSDate+PCCategories.m */; };
+		8437DD3C1F8989C200560F0E /* NSIndexPath+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 8437DD3A1F8989C200560F0E /* NSIndexPath+PCCategories.h */; };
+		8437DD3D1F8989C200560F0E /* NSIndexPath+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437DD3B1F8989C200560F0E /* NSIndexPath+PCCategories.m */; };
 		848DD81D1F8974DB00AC4037 /* NSDateFormatter+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 848DD81B1F8974DB00AC4037 /* NSDateFormatter+PCCategories.h */; };
 		848DD81E1F8974DB00AC4037 /* NSDateFormatter+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 848DD81C1F8974DB00AC4037 /* NSDateFormatter+PCCategories.m */; };
 		848DD8251F8979C000AC4037 /* NSURL+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 848DD8231F8979C000AC4037 /* NSURL+PCCategories.h */; };
@@ -37,6 +41,10 @@
 		8437DD2F1F8983E200560F0E /* UIControl+PCCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PCCategories.m"; sourceTree = "<group>"; };
 		8437DD321F89862600560F0E /* UIScreen+PCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScreen+PCCategories.h"; sourceTree = "<group>"; };
 		8437DD331F89862600560F0E /* UIScreen+PCCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+PCCategories.m"; sourceTree = "<group>"; };
+		8437DD361F89886A00560F0E /* NSDate+PCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+PCCategories.h"; sourceTree = "<group>"; };
+		8437DD371F89886A00560F0E /* NSDate+PCCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PCCategories.m"; sourceTree = "<group>"; };
+		8437DD3A1F8989C200560F0E /* NSIndexPath+PCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+PCCategories.h"; sourceTree = "<group>"; };
+		8437DD3B1F8989C200560F0E /* NSIndexPath+PCCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+PCCategories.m"; sourceTree = "<group>"; };
 		848DD81B1F8974DB00AC4037 /* NSDateFormatter+PCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+PCCategories.h"; sourceTree = "<group>"; };
 		848DD81C1F8974DB00AC4037 /* NSDateFormatter+PCCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+PCCategories.m"; sourceTree = "<group>"; };
 		848DD8231F8979C000AC4037 /* NSURL+PCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+PCCategories.h"; sourceTree = "<group>"; };
@@ -90,12 +98,16 @@
 		84D16F4B1F8962E2007344C3 /* ParticleCategories */ = {
 			isa = PBXGroup;
 			children = (
+				8437DD3A1F8989C200560F0E /* NSIndexPath+PCCategories.h */,
+				8437DD3B1F8989C200560F0E /* NSIndexPath+PCCategories.m */,
 				84D16F581F89645C007344C3 /* NSAttributedString+PCCategories.h */,
 				84D16F611F89645D007344C3 /* NSAttributedString+PCCategories.m */,
 				848DD8271F897C7500AC4037 /* NSString+PCCategories.h */,
 				848DD8281F897C7500AC4037 /* NSString+PCCategories.m */,
 				848DD81B1F8974DB00AC4037 /* NSDateFormatter+PCCategories.h */,
 				848DD81C1F8974DB00AC4037 /* NSDateFormatter+PCCategories.m */,
+				8437DD361F89886A00560F0E /* NSDate+PCCategories.h */,
+				8437DD371F89886A00560F0E /* NSDate+PCCategories.m */,
 				84D16F561F89645C007344C3 /* NSData+PCCategories.h */,
 				84D16F591F89645C007344C3 /* NSData+PCCategories.m */,
 				848DD8231F8979C000AC4037 /* NSURL+PCCategories.h */,
@@ -137,11 +149,13 @@
 				84D16F6A1F8965C5007344C3 /* NSData+PCCategories.h in Headers */,
 				848DD8251F8979C000AC4037 /* NSURL+PCCategories.h in Headers */,
 				84D16F6C1F8965C5007344C3 /* UIStackView+PCCategories.h in Headers */,
+				8437DD381F89886A00560F0E /* NSDate+PCCategories.h in Headers */,
 				84D16F691F8965C5007344C3 /* NSAttributedString+PCCategories.h in Headers */,
 				84D16F6E1F8965C5007344C3 /* UIView+PCCategories.h in Headers */,
 				84D16F6D1F8965C5007344C3 /* UITableView+PCCategories.h in Headers */,
 				8437DD341F89862600560F0E /* UIScreen+PCCategories.h in Headers */,
 				848DD82D1F89816D00AC4037 /* UIColor+PCCategories.h in Headers */,
+				8437DD3C1F8989C200560F0E /* NSIndexPath+PCCategories.h in Headers */,
 				848DD81D1F8974DB00AC4037 /* NSDateFormatter+PCCategories.h in Headers */,
 				848DD8291F897C7500AC4037 /* NSString+PCCategories.h in Headers */,
 				8437DD301F8983E200560F0E /* UIControl+PCCategories.h in Headers */,
@@ -225,8 +239,10 @@
 				84D16F651F89645D007344C3 /* UIStackView+PCCategories.m in Sources */,
 				84D16F681F89645D007344C3 /* NSAttributedString+PCCategories.m in Sources */,
 				848DD8261F8979C000AC4037 /* NSURL+PCCategories.m in Sources */,
+				8437DD3D1F8989C200560F0E /* NSIndexPath+PCCategories.m in Sources */,
 				8437DD311F8983E200560F0E /* UIControl+PCCategories.m in Sources */,
 				848DD82E1F89816D00AC4037 /* UIColor+PCCategories.m in Sources */,
+				8437DD391F89886A00560F0E /* NSDate+PCCategories.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
