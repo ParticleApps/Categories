@@ -13,7 +13,7 @@
 @implementation NSIndexPath (PCCategories)
 
 - (NSString *)stringValue {
-    return [NSString stringWithFormat:@"(s: %li, r: %li)", self.section, self.row];
+    return [NSString stringWithFormat:@"(s: %li, r: %li)", (long)self.section, (long)self.row];
 }
 
 @end

@@ -1,5 +1,5 @@
 # ParticleCategories
-ParticleCatagories is a framework that adds convience methods for common objects in UIKit & Foundation.
+ParticleCategories is a framework that adds convenience methods for common objects in UIKit & Foundation.
 
 ## Adding to Your Project
 Simply add the following to your Podfile if you're using [CocoaPods](http://cocoapods.org):
