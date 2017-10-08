@@ -9,7 +9,7 @@ ParticleCategories is a framework that adds convenience methods for common objec
 Simply add the following to your Podfile if you're using [CocoaPods](http://cocoapods.org):
 
 ``` ruby
-pod 'ParticleCategories', :git => "https://github.com/ParticleApps/Categories.git"
+pod 'ParticleCategories'
 ```
 
 or Cartfile if you're using [Carthage](https://github.com/Carthage/Carthage):
