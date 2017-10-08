@@ -17,6 +17,7 @@ FOUNDATION_EXPORT const unsigned char ParticleCategoriesVersionString[];
 #import "NSIndexPath+PCCategories.h"
 #import "NSAttributedString+PCCategories.h"
 #import "NSString+PCCategories.h"
+#import "NSNumberFormatter+PCCategories.h"
 #import "NSDateFormatter+PCCategories.h"
 #import "NSDate+PCCategories.h"
 #import "NSData+PCCategories.h"
