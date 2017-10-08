@@ -1,4 +1,8 @@
 # ParticleCategories
+[![Version](https://img.shields.io/github/release/ParticleApps/CloudAppSDK.svg)](https://github.com/ParticleApps/Categories/releases)
+[![CocoaPods](https://img.shields.io/cocoapods/v/ParticleCategories.svg)](https://cocoapods.org/pods/CloudAppSDK)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 ParticleCategories is a framework that adds convenience methods for common objects in UIKit & Foundation.
 
 ## Adding to Your Project
