@@ -25,7 +25,7 @@
 		848DD82E1F89816D00AC4037 /* UIColor+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 848DD82C1F89816D00AC4037 /* UIColor+PCCategories.m */; };
 		84ABE2041F89BEC20057F3FF /* NSNumberFormatter+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ABE2021F89BEC20057F3FF /* NSNumberFormatter+PCCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84ABE2051F89BEC20057F3FF /* NSNumberFormatter+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABE2031F89BEC20057F3FF /* NSNumberFormatter+PCCategories.m */; };
-		84ABE2081F89D6AD0057F3FF /* UICollectionView+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ABE2061F89D6AD0057F3FF /* UICollectionView+PCCategories.h */; };
+		84ABE2081F89D6AD0057F3FF /* UICollectionView+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ABE2061F89D6AD0057F3FF /* UICollectionView+PCCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84ABE2091F89D6AD0057F3FF /* UICollectionView+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABE2071F89D6AD0057F3FF /* UICollectionView+PCCategories.m */; };
 		84D16F4E1F8962E2007344C3 /* ParticleCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D16F4C1F8962E2007344C3 /* ParticleCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84D16F631F89645D007344C3 /* NSData+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D16F591F89645C007344C3 /* NSData+PCCategories.m */; };
