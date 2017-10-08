@@ -25,6 +25,8 @@
 		848DD82E1F89816D00AC4037 /* UIColor+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 848DD82C1F89816D00AC4037 /* UIColor+PCCategories.m */; };
 		84ABE2041F89BEC20057F3FF /* NSNumberFormatter+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ABE2021F89BEC20057F3FF /* NSNumberFormatter+PCCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84ABE2051F89BEC20057F3FF /* NSNumberFormatter+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABE2031F89BEC20057F3FF /* NSNumberFormatter+PCCategories.m */; };
+		84ABE2081F89D6AD0057F3FF /* UICollectionView+PCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 84ABE2061F89D6AD0057F3FF /* UICollectionView+PCCategories.h */; };
+		84ABE2091F89D6AD0057F3FF /* UICollectionView+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ABE2071F89D6AD0057F3FF /* UICollectionView+PCCategories.m */; };
 		84D16F4E1F8962E2007344C3 /* ParticleCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D16F4C1F8962E2007344C3 /* ParticleCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84D16F631F89645D007344C3 /* NSData+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D16F591F89645C007344C3 /* NSData+PCCategories.m */; };
 		84D16F651F89645D007344C3 /* UIStackView+PCCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D16F5C1F89645C007344C3 /* UIStackView+PCCategories.m */; };
@@ -57,6 +59,8 @@
 		848DD82C1F89816D00AC4037 /* UIColor+PCCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PCCategories.m"; sourceTree = "<group>"; };
 		84ABE2021F89BEC20057F3FF /* NSNumberFormatter+PCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumberFormatter+PCCategories.h"; sourceTree = "<group>"; };
 		84ABE2031F89BEC20057F3FF /* NSNumberFormatter+PCCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumberFormatter+PCCategories.m"; sourceTree = "<group>"; };
+		84ABE2061F89D6AD0057F3FF /* UICollectionView+PCCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+PCCategories.h"; sourceTree = "<group>"; };
+		84ABE2071F89D6AD0057F3FF /* UICollectionView+PCCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+PCCategories.m"; sourceTree = "<group>"; };
 		84D16F491F8962E2007344C3 /* ParticleCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParticleCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D16F4C1F8962E2007344C3 /* ParticleCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParticleCategories.h; sourceTree = "<group>"; };
 		84D16F4D1F8962E2007344C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 				84D16F5C1F89645C007344C3 /* UIStackView+PCCategories.m */,
 				84D16F5D1F89645C007344C3 /* UITableView+PCCategories.h */,
 				84D16F5E1F89645D007344C3 /* UITableView+PCCategories.m */,
+				84ABE2061F89D6AD0057F3FF /* UICollectionView+PCCategories.h */,
+				84ABE2071F89D6AD0057F3FF /* UICollectionView+PCCategories.m */,
 				8437DD321F89862600560F0E /* UIScreen+PCCategories.h */,
 				8437DD331F89862600560F0E /* UIScreen+PCCategories.m */,
 				8437DD2E1F8983E200560F0E /* UIControl+PCCategories.h */,
@@ -165,6 +171,7 @@
 				8437DD3C1F8989C200560F0E /* NSIndexPath+PCCategories.h in Headers */,
 				848DD81D1F8974DB00AC4037 /* NSDateFormatter+PCCategories.h in Headers */,
 				848DD8291F897C7500AC4037 /* NSString+PCCategories.h in Headers */,
+				84ABE2081F89D6AD0057F3FF /* UICollectionView+PCCategories.h in Headers */,
 				8437DD301F8983E200560F0E /* UIControl+PCCategories.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +249,7 @@
 				84D16F671F89645D007344C3 /* UIView+PCCategories.m in Sources */,
 				848DD82A1F897C7500AC4037 /* NSString+PCCategories.m in Sources */,
 				848DD81E1F8974DB00AC4037 /* NSDateFormatter+PCCategories.m in Sources */,
+				84ABE2091F89D6AD0057F3FF /* UICollectionView+PCCategories.m in Sources */,
 				84D16F631F89645D007344C3 /* NSData+PCCategories.m in Sources */,
 				84D16F651F89645D007344C3 /* UIStackView+PCCategories.m in Sources */,
 				84D16F681F89645D007344C3 /* NSAttributedString+PCCategories.m in Sources */,
