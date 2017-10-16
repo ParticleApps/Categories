@@ -30,3 +30,4 @@ FOUNDATION_EXPORT const unsigned char ParticleCategoriesVersionString[];
 #import "UIControl+PCCategories.h"
 #import "UIColor+PCCategories.h"
 #import "UIView+PCCategories.h"
+#import "UIViewController+PCCategories.h"
