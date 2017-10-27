@@ -10,6 +10,13 @@
 
 @implementation UIView (PCCategories)
 
+- (void)removeAllSubviews {
+    NSArray *subviews = self.subviews.copy;
+    for (UIView *subview in subviews) {
+        [subview removeFromSuperview];
+    }
+}
+
 - (void)addSubviews:(NSArray <UIView *> *)subviews {
     for (UIView *subview in subviews) {
         [self addSubview:subview];

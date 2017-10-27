@@ -10,6 +10,8 @@
 
 @interface UIStackView (PCCategories)
 
+- (void)removeArrangedSubviews;
+
 - (void)addArrangedSubviews:(NSArray <UIView *> *)subviews;
 
 @end

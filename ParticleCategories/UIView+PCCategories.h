@@ -10,6 +10,8 @@
 
 @interface UIView (PCCategories)
 
+- (void)removeAllSubviews;
+
 - (void)addSubviews:(NSArray <UIView *> *)subviews;
 
 - (BOOL)findAndResignFirstResponder;
