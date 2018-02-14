@@ -24,4 +24,8 @@
     [self registerClass:cellClass forCellReuseIdentifier:[NSString stringWithFormat:@"%lu", (unsigned long)cellType]];
 }
 
+- (UITableViewCell *)dequeReusableCellWithType:(NSUInteger)cellType {
+    return [self dequeueReusableCellWithIdentifier:[NSString stringWithFormat:@"%lu", (unsigned long)cellType]];
+}
+
 @end
