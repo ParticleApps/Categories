@@ -14,6 +14,6 @@
 
 - (void)registerClass:(Class)cellClass forCellType:(NSUInteger)cellType;
 
-- (UITableViewCell *)dequeReusableCellWithType:(NSUInteger)cellType;
+- (UITableViewCell *)dequeueReusableCellWithType:(NSUInteger)cellType;
 
 @end

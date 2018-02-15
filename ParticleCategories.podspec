@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                  = 'ParticleCategories'
-  spec.version               = '1.0.2'
+  spec.version               = '1.0.4'
   spec.summary               = 'Particle\'s Objective-C categories.'
   spec.description           = 'Adds convience methods for common objects in UIKit & Foundation.'
   spec.homepage              = 'https://github.com/ParticleApps/Categories'
